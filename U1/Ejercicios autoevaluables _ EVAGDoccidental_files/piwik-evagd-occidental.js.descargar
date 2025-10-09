@@ -1,0 +1,12 @@
+var u="https://www3.gobiernodecanarias.org/educacion/cau_ce/estadisticasweb/";
+window._paq = [
+            ['trackPageView'],
+            ['enableLinkTracking'],
+            ['setTrackerUrl', u+'piwik.php'],
+            ['setSiteId', '97'],
+]
+var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true;
+        g.src=u+'piwik.js';
+        s.parentNode.insertBefore(g,s);
+
