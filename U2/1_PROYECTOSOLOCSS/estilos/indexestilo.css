@@ -38,3 +38,40 @@ header{
     width: 30px;
     margin: 5px;
 }
+
+#contenedorP {
+    display: flex;
+    flex-direction: row;
+}
+
+#productos {
+    width: 80vw;
+}
+
+#productos {
+    display: flex;
+    flex-direction: column;
+}
+
+#filtros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#filtrosChild {
+    display: flex;
+    flex-direction: row;
+}
+
+#filtrosChild p {
+    margin-right: 25px;
+}
+
+#barra {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-left: 5%;
+}
