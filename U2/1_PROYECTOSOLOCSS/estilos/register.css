@@ -19,8 +19,8 @@ h1 {
     flex-direction: row;
     margin-top: 8vh;
 }
-
-#izq {
+/*prueba ubuntu*/
+#izq { 
     display: flex;
     flex-direction: column;
 }
