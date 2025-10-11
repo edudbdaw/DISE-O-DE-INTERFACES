@@ -2,10 +2,64 @@
     width: 180px;
 }
 
+h1 {
+    font-family: 'Montserrat';
+}
+
 #contenedor {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20vh;
     flex-direction: column;
+}
+
+#contF {
+    display: flex;
+    flex-direction: row;
+    margin-top: 8vh;
+}
+
+#izq {
+    display: flex;
+    flex-direction: column;
+}
+
+#derecha {
+    display: flex;
+    flex-direction: column;
+}
+
+#fizq, #fder {
+    display: flex;
+    flex-direction: column; 
+}
+
+input {
+    margin: 1px;
+    padding: 15px;
+    width: 15vw;
+    margin-bottom: 13px;
+    margin-right: 7px;
+    background-color: rgb(245, 245, 245);
+    border-style:hidden;
+    border-color: grey;
+}
+
+#send {
+    margin: 11vh;
+    width: 10vw;
+    padding: 15px;
+    border-style: solid;
+    border-radius: 7px 7px 7px;
+    border-color:  black;
+    background-color: rgb(44, 95, 44);
+    color: white;
+    font-family: 'Montserrat';
+    font-size: large;
+}
+
+#send:hover {
+    background-color: rgb(40, 132, 40);
+    transition-duration: 0.5s;
 }
