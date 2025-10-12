@@ -4,7 +4,7 @@ header{
     display: flex;
     flex-direction: row;
     align-items:center;
-    justify-content: space-between;
+    justify-content: space-around;
     
 }
 
@@ -39,9 +39,11 @@ header{
     margin: 5px;
 }
 
+/*Div donde iran los productos*/
 #contenedorP {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 #productos {
@@ -68,6 +70,7 @@ header{
     margin-right: 25px;
 }
 
+/*aside*/
 #barra {
     display: flex;
     flex-direction: column;
@@ -75,3 +78,35 @@ header{
     align-items: center;
     margin-left: 5%;
 }
+
+/*Cards*/
+
+#cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    width: 100%;
+    border : 2px solid red;
+    gap: 25px;
+    justify-content: starts;
+    align-items:start;
+}
+
+.tarjeta img {
+    margin: 20px;
+    width: 120px;
+}
+
+.tarjeta {
+    display: flex;
+    border : 3px solid rgb(206, 201, 201);
+    /*margin: 25px;*/
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.tarjeta p {
+    margin: 10px;
+}
+
