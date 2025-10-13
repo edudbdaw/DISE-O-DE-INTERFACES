@@ -39,6 +39,29 @@ header{
     margin: 5px;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90vw;
+    overflow-x: hidden; /* Oculta cualquier desbordamiento en el eje horizontal */
+}
+
+/*contenedor del banner*/
+
+.banner {
+    margin-top: 20px;
+    height: 20vw;
+    width: 100vw;
+    margin-bottom: 15px;
+    background-image: url('/U2/1_PROYECTOSOLOCSS/Elementos/fotos/image.png');
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: center center;
+
+}
+
+
 /*Div donde iran los productos*/
 #contenedorP {
     display: flex;
@@ -71,12 +94,15 @@ header{
 }
 
 /*aside*/
-#barra {
+.barra {
     display: flex;
     flex-direction: column;
     align-content: center;
     align-items: center;
     margin-left: 5%;
+    border: 0.2px solid grey;
+    padding: 5px;
+    box-shadow: #6C851B;
 }
 
 /*Cards*/
@@ -110,3 +136,11 @@ header{
     margin: 10px;
 }
 
+/*aside*/
+
+.aside-items {
+    border: 0.5px solid grey;
+    padding: px;
+    width: 200px;
+    text-align: center;
+}
