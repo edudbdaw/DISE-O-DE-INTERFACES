@@ -1,0 +1,83 @@
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 10px;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+.apartados {
+    display: flex;
+    flex-direction: row;
+    margin-right: 15px;
+}
+.apartados p{
+    margin-right: 15px;
+}
+
+
+
+/*header*/
+header{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    
+}
+
+#logoBuscador {
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+
+}
+
+#cuadroSearch {
+    margin-left: 4vw;
+    border-color:#405009;
+}
+
+#log1 {
+    height: 140px;
+    width: auto;
+}
+
+#Search {
+    color: white;
+    background-color:#6C851B;
+}
+
+#Search:hover {
+    background-color: #a6d118;
+    transition-duration: 0.5s;
+}
+
+#iconosHeader img{
+    height: 30px;
+    width: 30px;
+    margin-right: 15vw;
+}
+
+/*carrito*/
+.carrito {
+    display: flex;
+    flex-direction: column;
+}
+ .carrito img {
+    width: 100px;
+ }
+
+ .carro {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+
+ .descripcion {
+    width: 80%;
+ }
+
+

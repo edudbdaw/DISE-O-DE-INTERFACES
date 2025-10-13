@@ -90,7 +90,7 @@ header{
     border : 2px solid red;
     gap: 25px;
     justify-content: starts;
-    align-items:start;
+    align-items:center;
 }
 
 .tarjeta img {
