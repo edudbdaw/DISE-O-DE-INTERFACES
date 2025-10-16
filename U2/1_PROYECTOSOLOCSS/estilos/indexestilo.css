@@ -15,6 +15,9 @@ header{
 }
 
 #cuadroSearch {
+    margin-left: 5vw;
+    padding: 10px;
+    width: 25vw;
     border-color:#405009;
 }
 
@@ -53,7 +56,7 @@ body {
     margin-top: 20px;
     height: 20vw;
     width: 100vw;
-    margin-bottom: 15px;
+    margin-bottom: 10vh;
     background-image: url('/U2/1_PROYECTOSOLOCSS/Elementos/fotos/image.png');
     background-repeat: no-repeat;
     background-size: 100vw;
@@ -101,8 +104,11 @@ body {
     align-items: center;
     margin-left: 5%;
     border: 0.2px solid grey;
-    padding: 5px;
+    padding: 10px;
+    padding-bottom: 5px;
     box-shadow: #6C851B;
+    border-radius: 15px;
+    
 }
 
 /*Cards*/
@@ -111,12 +117,28 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
     width: 100%;
-    border : 2px solid red;
     gap: 25px;
-    justify-content: starts;
+    justify-content: center;
     align-items:center;
+    margin-bottom: 25vh;
+    
+}
+
+.eleIzq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 4px 20px 0px;
+    height: 20px;
+    width: 30%;
+    background-color: #a6d118;
+}
+
+.eleIzq p {
+    color: white;
+    font-weight: bold;
+    font-size: smaller;
 }
 
 .tarjeta img {
@@ -126,21 +148,37 @@ body {
 
 .tarjeta {
     display: flex;
-    border : 3px solid rgb(206, 201, 201);
+    border : 0.2px solid rgb(206, 201, 201);
     /*margin: 25px;*/
     justify-content: space-between;
     flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
 }
 
 .tarjeta p {
     margin: 10px;
 }
 
+.tarjeta :hover {
+    width: 150px;
+    height: auto;
+    transition: 0.5s ;
+}
+
 /*aside*/
 
 .aside-items {
     border: 0.5px solid grey;
-    padding: px;
+    padding: 5px;
     width: 200px;
     text-align: center;
+    border-radius: 5px;
+    margin-bottom: 3%;
+
+}
+
+.aside-items p {
+    font-size: 
+    20px;
 }
